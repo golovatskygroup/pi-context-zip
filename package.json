@@ -1,0 +1,28 @@
+{
+  "name": "pi-context-zip",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pi package for exact-first Context ZIP session compaction artifacts.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "context-zip"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    },
+    "typebox": {
+      "optional": true
+    }
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  }
+}
